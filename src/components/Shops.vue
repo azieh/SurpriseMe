@@ -3,7 +3,7 @@
     <v-parallax :height="$vuetify.breakpoint.smAndDown ? 1400 : 500" src="../img/shop_bg.jpg">
       <v-container fill-height>
         <v-row class="mx-auto">
-          <v-col v-for="(shop, name) of shops" :key="name" cols="12" md="3">
+          <v-col v-for="(shop, name) of shops" :key="name">
             <div class="text-center">
               <a :href="shop.link">
                 <v-avatar class="elevation-12 mb-12" size="256">
@@ -35,10 +35,6 @@ export default {
         {
           icon: require("../img/shops/decobazaar.jpg"),
           link: "https://www.decobazaar.com/surprise-me",
-        },
-        {
-          icon: require("../img/shops/pakamera.jpg"),
-          link: "https://www.pakamera.pl",
         }
       ]
     };
