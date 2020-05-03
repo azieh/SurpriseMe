@@ -24,7 +24,7 @@
                     >SurpriseMe</span>
                     
                   </v-col>
-                  <v-btn class="align-self-end" fab outlined @click="$vuetify.goTo('#about-me')">
+                  <v-btn class="align-self-end" fab outlined @click="$vuetify.goTo('#instagram')">
                     <v-icon>mdi-chevron-double-down</v-icon>
                   </v-btn>
                 </v-row>

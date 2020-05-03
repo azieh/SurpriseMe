@@ -1,5 +1,5 @@
 <template>
-  <section id="blog">
+  <section id="instagram">
     <div class="py-12"></div>
 
     <v-container>
@@ -12,13 +12,13 @@
       <v-layout row wrap>
       <v-flex d-flex xs12 sm4 child-flex>
       
-            <instagram-embed :url="'https://www.instagram.com/p/B-Ez7pClcs1/'" :max-width="500" />
+            <instagram-embed :url="'https://www.instagram.com/p/B_t8QGIjihy/'" :max-width="500" />
       </v-flex>
       <v-flex d-flex xs12 sm4 child-flex>
             <instagram-embed :url="'https://www.instagram.com/p/B_fCb2ODt9Y/'" :max-width="500" />
        </v-flex>
       <v-flex d-flex xs12 sm4 child-flex>
-            <instagram-embed :url="'https://www.instagram.com/p/B-Ez7pClcs1/'" :max-width="500" />
+            <instagram-embed :url="'https://www.instagram.com/p/B_sXxKejGRD/'" :max-width="500" />
  
       </v-flex>
       </v-layout>

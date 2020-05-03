@@ -35,6 +35,10 @@ export default {
         {
           icon: require("../img/shops/decobazaar.jpg"),
           link: "https://www.decobazaar.com/surprise-me",
+        },
+        {
+          icon: require("../img/shops/pakamera.jpg"),
+          link: "https://www.pakamera.pl/surprise-me-0_s12532891.htm",
         }
       ]
     };

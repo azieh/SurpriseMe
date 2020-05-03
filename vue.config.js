@@ -14,7 +14,7 @@ module.exports = {
               author: 'Martyna Ścieszka',
               copyright: 'Copyright owner',
               robots: 'index,fallow',
-              keywords: ''
+              keywords: 'surpriseme, surprise me, polskie marki, home made, bluzy, plecaki, handmade, pakamera, art-madam, artillo, decobazaar, martyna ścieszka, martyna scieszka, domowe szycie'
             };
 
          return args;

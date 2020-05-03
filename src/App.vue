@@ -18,11 +18,13 @@
 </template>
 
 <script>
+
 import TopBar from './components/TopBar';
 import Hero from './components/Hero';
 import Shops from './components/Shops'
 import AboutMe from './components/AboutMe';
 import Instagram from './components/Instagram'
+
 export default {
   name: "App",
 

@@ -30,23 +30,23 @@
         <v-divider></v-divider>
       </v-responsive>
       <v-row no-gutters>
-        <v-col class="text-right">
+        <v-col :class="$vuetify.breakpoint.smAndDown ? 'text-center' : 'text-right'">
           <a href="https://www.facebook.com/surprisemeatelier/">
-            <v-avatar class="elevation-12 mb-12" size="200">
+            <v-avatar class="elevation-12 mb-12" :size="$vuetify.breakpoint.smAndDown ? 100 : 200">
               <v-img src="../img/facebook.png"></v-img>
             </v-avatar>
           </a>
         </v-col>
         <v-col class="text-center">
           <a href="https://www.instagram.com/surprisemeatelier/">
-            <v-avatar class="elevation-12 mb-12" size="200">
+            <v-avatar class="elevation-12 mb-12" :size="$vuetify.breakpoint.smAndDown ? 100 : 200">
               <v-img src="../img/insta.png"></v-img>
             </v-avatar>
           </a>
         </v-col>
-        <v-col class="text-left">
+        <v-col :class="$vuetify.breakpoint.smAndDown ? 'text-center' : 'text-left'">
           <a href="mailto:hello.surpriseme@gmail.com">
-            <v-avatar color="teal" class="elevation-12 mb-12" size="200">
+            <v-avatar color="teal" class="elevation-12 mb-12" :size="$vuetify.breakpoint.smAndDown ? 100 : 200">
               <v-img src="../img/at.png"></v-img>
             </v-avatar>
           </a>
