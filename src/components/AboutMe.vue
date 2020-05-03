@@ -24,16 +24,17 @@
       <h2 class="display-2 font-weight-bold mb-3">Bądź ze mną na bierząco</h2>
 
       <v-row no-gutters>
-        <v-col>
+        <v-col class="text-right">
            <a href="https://www.facebook.com/surprisemeatelier/">
-          <v-avatar class="elevation-12 mb-12" size="300">
+          <v-avatar class="elevation-12 mb-12" size="200">
             <v-img src="../img/facebook.png"></v-img>
           </v-avatar>
            </a>
         </v-col>
-        <v-col>
+        
+        <v-col class="text-left">
           <a href="https://www.instagram.com/surprisemeatelier/">
-          <v-avatar class="elevation-12 mb-12" size="300">
+          <v-avatar class="elevation-12 mb-12" size="200">
             <v-img src="../img/insta.png"></v-img>
           </v-avatar>
           </a>
@@ -47,6 +48,29 @@
 
 <script>
 export default {
-  name: "AboutMe"
+  name: "AboutMe",
+  data() {
+    return {
+      logo: 'http://surpriseme.pl' + require('../img/surpriseme_color_bn.png')
+    }
+  },
+  metaInfo() {
+    return {
+      meta: [
+          // Twitter Card
+          {name: 'twitter:card', content: 'summary'},
+          {name: 'twitter:title', content: '&hearts; Surprise ME &hearts;'},
+          {name: 'twitter:description', content: 'Surprise Me to kanapowe ubrania 🛋️ gotowe na każdą przygodę 🧘🌍 Szyte w Krakowie przez Martynę'},
+          // image must be an absolute path
+          {name: 'twitter:image', content: this.logo},
+          // Facebook OpenGraph
+          {property: 'og:title', content: '&hearts; Surprise ME &hearts;'},
+          {property: 'og:site_name', content: 'surpriseme.pl'},
+          {property: 'og:type', content: 'website'},
+          {property: 'og:image', content:  this.logo},
+          {property: 'og:description', content: 'Surprise Me to kanapowe ubrania 🛋️ gotowe na każdą przygodę 🧘🌍 Szyte w Krakowie przez Martynę'}
+      ]
+    }
+  }
 };
 </script>

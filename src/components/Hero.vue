@@ -3,7 +3,7 @@
     <v-row no-gutters>
       <v-img
         :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-        src="../img/DSCF3028.jpg"
+        src="../img/hero_bg.jpg"
       >
         <v-theme-provider dark>
           <v-container fill-height>
@@ -14,7 +14,7 @@
                     <span
                       class="font-weight-light"
                       :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
-                    >Cześć</span>
+                    >Cześć!</span>
 
                     <br />
 
